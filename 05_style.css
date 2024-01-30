@@ -72,4 +72,10 @@ p {
   background-color: var(--btn-col);
   padding: 0.8rem 3rem;
   border-radius: 3rem;
+  cursor: pointer;
+}
+
+.link:focus,
+.link:hover {
+  opacity: 0.75;
 }

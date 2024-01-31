@@ -23,6 +23,13 @@
 *::before,
 *::after {
   box-sizing: border-box;
+
+  --bg-col: #23424a;
+  --font-col: #ffffff;
+  --btn-col: #38cfd9;
+  --second-row-head: #87629a;
+  --second-row-p: #3a3a3a;
+  --third-row-bg: #136c72;
 }
 
 body {
@@ -44,24 +51,43 @@ h1 {
 .row {
   /* display: flex => flex container */
   display: flex;
+  gap: 2em;
+}
 
-  /* can't use yet */
-  /* gap: 100px; */
+.row-two-head {
+  color: var(--second-row-head);
+}
+
+.row-two-p {
+  color: var(--second-row-p);
+}
+
+.row-three-text {
+  color: var(--font-col);
 }
 
 .col {
   /* these are now flex items */
   width: 100%;
+  padding: 3em 0;
+}
+
+.col-text {
+  text-align: center;
 }
 
 .hero {
   padding: 100px 0;
-  background-color: #23424a;
+  background-color: var(--bg-col);
   color: #fff;
 }
 
 .hero__text {
   width: 60%;
+}
+
+.third-row {
+  background-color: var(--third-row-bg);
 }
 
 .hero p {

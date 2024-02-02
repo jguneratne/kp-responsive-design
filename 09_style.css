@@ -68,9 +68,13 @@ p {
   padding: 1em;
 }
 
+.col-left {
+  width: 62%;
+}
+
 .col-right {
   background-color: var(--second-col-bg);
-  width: 50%;
+  width: 32%;
 }
 
 .hero {

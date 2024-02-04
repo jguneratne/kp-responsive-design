@@ -74,6 +74,11 @@ header {
   padding: 0.5em 0;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav__list {
   margin: 0;
   list-style: none;

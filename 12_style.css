@@ -66,25 +66,29 @@ section {
 }
 
 .first-section-paras {
-  display: flex;
-  gap: 1em;
-  flex-grow: 1;
-}
-
-.first-section-paras {
   color: var(--dark-color);
-
   display: flex;
   gap: 3em;
   flex-grow: 1;
 }
 
-.second-section {
-  background-color: var(--dark-color);
-
+.second-section,
+.third-section {
   display: flex;
   gap: 3em;
   flex-grow: 1;
+  background-color: var(--dark-color);
+}
+
+.third-section {
+  background-color: var(--medium-color);
+}
+
+.second-section-text,
+.second-section-img,
+.third-section-text,
+.third-section-img {
+  width: 100%;
 }
 
 .second-section-heading,
@@ -92,17 +96,10 @@ section {
   font-family: "Playfair Display Black";
   font-size: 2.25rem;
   color: var(--light-color);
-  text-align: center;
   margin-bottom: 1em;
 }
 
-.second-section-para {
+.second-section-para,
+.third-section-para {
   color: #fff;
-}
-
-.third-section {
-  display: flex;
-  gap: 3em;
-  flex-grow: 1;
-  background-color: var(--medium-color);
 }

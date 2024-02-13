@@ -123,19 +123,22 @@
   font-family: "Oswald";
   font-weight: bold;
   font-size: 3.5rem;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 .hero-title-white {
   color: #fff;
 }
 
+.hero-content {
+  text-align: right;
+}
+
 .hero-para {
-  margin: 1em 0;
+  margin: 2.5em 0 1.5em 0;
   color: #f1f1f1;
   font-family: "Montserrat";
   font-size: 1.2rem;
-  max-width: 80%;
 }
 
 .hero-btn {

@@ -53,6 +53,20 @@
   width: 90%;
 }
 
+.col-header {
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 1.875rem;
+  text-align: center;
+  margin-bottom: 0.6em;
+}
+
+.col-content {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  text-align: center;
+}
+
 .header {
   background-color: #2e323f;
   color: #fff;
@@ -146,6 +160,23 @@
   background-color: #f1f1f1;
 }
 
+.first-section-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+}
+
+.first-section__col-header {
+  color: #a59678;
+  margin-bottom: 0.3em;
+}
+
+.first-section__col-content {
+  color: #6f737f;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 .second-section__primary {
   display: flex;
   flex-direction: column;
@@ -182,18 +213,6 @@
   color: #fff;
   text-align: center;
   padding: 2em;
-}
-
-.col-header {
-  font-family: "Oswald";
-  font-weight: bold;
-  font-size: 1.875rem;
-  margin-bottom: 1rem;
-}
-
-.col-content {
-  font-family: "Montserrat";
-  font-size: 1rem;
 }
 
 .footer {

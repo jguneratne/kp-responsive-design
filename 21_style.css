@@ -205,8 +205,8 @@
   text-align: center;
 }
 
-.second-section__primary-img {
-  max-width: 80%;
+.second-section__img {
+  margin: 1em 0;
 }
 
 .second-section__sidebar {

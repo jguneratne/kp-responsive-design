@@ -48,7 +48,9 @@
 }
 
 .section-box {
-  padding: 1em;
+  padding: 3em 0 3em 1.3em;
+  margin: auto;
+  width: 90%;
 }
 
 .header {
@@ -88,5 +90,58 @@
 .sign-up-btn {
   background-color: #a59678;
   padding: 0.01em 1em;
+  border: 1px solid #a59678;
   border-radius: 5em;
+}
+
+.sign-up-btn:hover,
+.sign-up-btn:focus {
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.hero-section {
+  background-color: #3b4050;
+}
+
+.hero-title {
+  color: #a59678;
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+
+.hero-title-white {
+  color: #fff;
+}
+
+.hero-para {
+  margin: 1em 0;
+  color: #f1f1f1;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  max-width: 80%;
+}
+
+.hero-btn {
+  background-color: #a59678;
+  color: white;
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 0.1em 1em;
+  border-radius: 5em;
+  border: 1px #a59678 solid;
+}
+
+.hero-btn:focus,
+.hero-btn:hover {
+  border: 1px #fff solid;
+  cursor: pointer;
+}
+
+.first-section {
+  background-color: #f1f1f1;
 }

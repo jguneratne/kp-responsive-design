@@ -183,6 +183,7 @@
 .second-section__primary {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 1em;
   margin-bottom: 2em;
 }
@@ -191,14 +192,16 @@
   color: #a59678;
   font-family: "Oswald";
   font-weight: bold;
-  font-size: 2.1rem;
-  line-height: 1;
+  text-align: center;
+  font-size: 2.2rem;
+  line-height: 1.2;
 }
 
 .second-section__primary-para {
   color: #6f737f;
   font-family: "Montserrat";
   font-size: 1.1rem;
+  text-align: center;
 }
 
 .second-section__primary-img {

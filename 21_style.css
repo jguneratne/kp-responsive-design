@@ -242,6 +242,12 @@
   margin-top: 1.5em;
 }
 
+.footer-nav-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+}
+
 .footer-title {
   color: #fff;
   font-family: "Oswald";
@@ -321,7 +327,7 @@
   }
 
   .footer-nav-content {
-    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
   }
 

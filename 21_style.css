@@ -225,3 +225,32 @@
 .footer {
   background-color: #3b4050;
 }
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 1.5em;
+}
+
+.footer-title {
+  color: #fff;
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.col-header__footer {
+  color: #a59678;
+  font-size: 1.313rem;
+}
+
+.col-content__footer {
+  color: #6f737f;
+}
+
+.nav-list__footer {
+  color: #6f737f;
+  text-align: center;
+  font-size: 1rem;
+}

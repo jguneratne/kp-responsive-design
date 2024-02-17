@@ -190,9 +190,16 @@
   margin: 0 auto;
 }
 
+.second-section-box {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
 .second-section__primary {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   justify-content: center;
   gap: 1em;
   margin-bottom: 2em;
@@ -221,6 +228,7 @@
 .second-section__sidebar {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   gap: 1em;
 }
 
@@ -245,6 +253,7 @@
 .footer-nav-content {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   gap: 2.5em;
 }
 
@@ -253,6 +262,7 @@
   font-family: "Oswald";
   font-weight: bold;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .col-header__footer {
@@ -284,6 +294,7 @@
 
   .nav-list {
     display: flex;
+    flex-grow: 1;
     justify-content: space-between;
   }
 
@@ -303,6 +314,7 @@
   .hero-content {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     justify-content: flex-end;
   }
 
@@ -326,6 +338,11 @@
     width: 100%;
   }
 
+  .footer-title {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+  }
+
   .footer-nav-content {
     flex-direction: row;
     justify-content: space-evenly;
@@ -333,6 +350,81 @@
 
   .nav-list__footer {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
+  }
+}
+
+@media (min-width: 1000px) {
+  .section-box {
+    padding: 5em 0;
+  }
+
+  .header .section-box {
+    padding: 1em 0;
+  }
+
+  .hero-section-box {
+    display: flex;
+    flex-grow: 1;
+    gap: 5em;
+  }
+
+  .hero-title {
+    width: 100%;
+    font-size: 4rem;
+  }
+
+  .hero-content {
+    width: 100%;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .hero-para {
+    margin-left: 0;
+  }
+
+  .second-section-box {
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  .second-section__primary {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .second-section__primary-header,
+  .second-section__primary-para {
+    text-align: left;
+  }
+
+  .second-section__sidebar {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .second-section-col {
+    max-width: max-content;
+    margin-left: auto;
+  }
+
+  .second-section-col .col-content {
+    max-width: 25ch;
+  }
+
+  .footer-title {
+    margin-bottom: 2em;
+  }
+
+  .footer-content {
+    flex-direction: row;
+  }
+
+  .col-header__footer,
+  .col-content__footer,
+  .nav-list__footer {
+    text-align: left;
   }
 }
